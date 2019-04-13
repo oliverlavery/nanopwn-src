@@ -1,0 +1,11 @@
+--- a/src/interfaces/curses/widgets/wdg.h
++++ b/src/interfaces/curses/widgets/wdg.h
+@@ -41,7 +41,7 @@
+     typedef uint32_t  u_int32;
+     typedef uint64_t  u_int64;
+ #endif
+-
++typedef unsigned char u_char;
+
+ #define LIBWDG_VERSION "0.10.3"
+

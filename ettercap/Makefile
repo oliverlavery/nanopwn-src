@@ -49,7 +49,7 @@ endef
 
 CONFIGURE_ARGS += \
 	--with-libpcap="$(STAGING_DIR)/usr" \
-	--with-libnet="$(STAGING_DIR)/usr/lib/libnet-1.1.x" \
+	--with-libnet="$(STAGING_DIR)/usr" \
 	--with-openssl="$(STAGING_DIR)/usr" \
 	--with-libpcre="$(STAGING_DIR)/usr" \
 	--with-iconv="$(ICONV_PREFIX)" \
